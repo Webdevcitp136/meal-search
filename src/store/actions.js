@@ -22,3 +22,4 @@ export function searchMealsByIngredient({commit}, ingredient) {
         commit('setMealsByIngredient', data.meals)
     })
 }
+
